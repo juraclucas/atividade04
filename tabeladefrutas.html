@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela de frutas ativ04</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .uva{
+            background-color: rgb(153, 0, 255);
+        }
+        .maca{
+            background-color: rgb(255, 11, 11);
+
+        }
+        .banana{
+            background-color: rgb(255, 230, 0);
+        }
+        .laranja{
+            background-color: rgba(255, 145, 0, 0.849);
+        }
+        .mamao{
+            background-color: rgb(2, 112, 255);
+        }
+
+        h1{
+            text-align: center;
+
+        }
+        table{
+            margin: auto;
+            background-color: rgb(234, 236, 235);
+            box-shadow: 5px 5px 15px #0b3a4ecc;
+            border-radius: 5px;    
+            padding: 10px;
+        }
+        th{
+            background-color: rgb(171, 183, 250)
+        }
+        .traco{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>tabela de frutas </h1>  
+    <main>
+    <table border="2" cellspacing="5">
+        <caption>Lista de Frutas</caption>
+        <tr>
+            <th class="traco" >-----</th>
+            <th class="traco">-----</th>
+            <th class="fruta">Fruta 1</th>
+            <th>Fruta 2</th>
+            <th>Fruta 3</th>
+            <th>Fruta 4</th>
+            <th>Fruta 5</th>
+            <th class="traco">-----</th>
+            <th class="traco">-----</th>
+        </tr>  
+        <tr>
+            <td rowspan="8px">Linhas Esquerda</td>
+            <th class="linha">Linha 1</th>
+            <td class="uva">uva</td>
+            <td class="maca">maçã</td>
+            <td class="banana">banana</td>
+            <td class="laranja">laranja</td>
+            <td class="mamao">mamão</td>
+            <th class="linha">Linha 1</th>
+            <td rowspan="8px">Linhas Direita</td>
+        </tr>
+        <tr>
+            <th class="linha">Linha 2</th>
+            <td class="maca">maçã</td>
+            <td class="uva">uva</td>
+            <td class="banana">banana</td>
+            <td class="mamao">mamão</td>
+            <td class="laranja">laranja</td>
+            <th class="linha">Linha 2</th>
+        </tr>
+        <tr>
+            <th class="linha">Linha 3</th>
+            <td class="laranja">laranja</td>
+            <td class="maca">maçã</td>
+            <td class="mamao">mamão</td>
+            <td class="banana">banana</td>
+            <td class="uva">uva</td>
+            <th class="linha">Linha 3</th>
+        </tr>
+        <tr>
+            <th class="linha">Linha 4</th>
+            <td class="banana">Banana</td>
+            <td class="mamao">mamão</td>
+            <td class="maca">maçã</td>
+            <td class="laranja">laranja</td>
+            <td class="uva">uva</td>
+            <th class="linha">Linha 4</th>
+        </tr>
+        <tr>
+            <th class="linha">Linha 5</th>
+            <td class="maca">maçã</td>
+            <td class="uva">uva</td>
+            <td class="mamao">mamão</td>
+            <td class="laranja">laranja</td>
+            <td class="banana">banana</td>
+            <th class="linha">Linha 5</th>
+        </tr>
+        <tr>
+            <th class="traco">------</th>
+            <th>Fruta 1</th>
+            <th>Fruta 2</th>
+            <th>Fruta 3</th>
+            <th>Fruta 4</th>
+            <th>Fruta 5</th>
+            <th class="traco">-------</th>
+        </tr>
+    </table>
+    </main>
+    
+</body>
+</html>
